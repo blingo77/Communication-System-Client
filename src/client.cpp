@@ -1,12 +1,11 @@
 
-#include "headers\client.h"
+#include "..\headers\client.h"
 #include <WinSock2.h>
 #include <WS2tcpip.h>
 #include <iostream>
 #include <iomanip>
 #include <tchar.h>
 #include <thread>
-#include "headers/interface.h"
 
 /*
 	Steps for Client Functions

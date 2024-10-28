@@ -2,7 +2,6 @@
 #define CLIENT_H
 
 #include <WinSock2.h>
-#include "interface.h"
 
 namespace clnt {
 
@@ -20,7 +19,6 @@ namespace clnt {
 
 		int port;
 		bool allowedToSend;
-		Interface IFACE;
 
 		void loadWSAdll();
 		SOCKET buildSocket();
